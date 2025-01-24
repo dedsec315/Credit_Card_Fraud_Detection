@@ -11,7 +11,7 @@ from tensorflow.keras.layers import Dense  # For creating dense layers.
 import matplotlib.pyplot as plt  # For plotting graphs.
 
 # Load Data
-df = pd.read_csv('/kaggle/input/creditcardfraud/creditcard.csv')  # Reads the credit card fraud dataset.
+df = pd.read_csv('creditcard_2023.csv')  # Reads the credit card fraud dataset.
 
 # Data Exploration (Optional)
 df.sample(5)  # Displays a random sample of 5 rows.
